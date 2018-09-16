@@ -1,0 +1,141 @@
+{
+  "PHP Private function": {
+    "prefix": "pfunc",
+    "body": [
+      "private function $1 (${2: params} ) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "PHP Private function"
+  },
+  "class with constructor": {
+    "prefix": "cclass",
+    "body": [
+      "class ${TM_FILENAME_BASE} {",
+      "\tfunction __construct(${2:params}) {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "class with constructor"
+  },
+  "protected function": {
+    "prefix": "profun",
+    "body": [
+      "protected function $1($2) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "protected function"
+  },
+  "protected variable": {
+    "prefix": "provar",
+    "body": [
+      "protected $$1;"
+    ],
+    "description": "protected variable"
+  },
+  "public variable": {
+    "prefix": "pubvar",
+    "body": [
+      "public $$1;"
+    ],
+    "description": "public variable"
+  },
+  "private variable": {
+    "prefix": "privar",
+    "body": [
+      "private $$1;"
+    ],
+    "description": "private variable"
+  },
+  "public abstract method": {
+    "prefix": "pabsfun",
+    "body": [
+      "public abstract function $1($2);"
+    ],
+    "description": "public abstract method"
+  },
+  "private abstract method": {
+    "prefix": "priabsfun",
+    "body": [
+      "private abstract function $1($2);"
+    ],
+    "description": "private abstract method"
+  },
+  "protected abstract method": {
+    "prefix": "proabsfun",
+    "body": [
+      "protected abstract function $1($2);"
+    ],
+    "description": "protected abstract method"
+  },
+  "abstract class": {
+    "prefix": "absclass",
+    "body": [
+      "abstract class ${TM_FILENAME_BASE} { ",
+      "\t$1 function ${2:functionName} ($3) {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "abstract class"
+  },
+  "forloop": {
+    "prefix": "for",
+    "body": [
+      "for($1 = 0; $1 < $2; $1++) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "forloop"
+  },
+  "whileloop": {
+    "prefix": "while",
+    "body": [
+      "while ($1) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "whileloop"
+  },
+  "do_whileloop": {
+    "prefix": "do_while",
+    "body": [
+      "do {",
+      "\t$0;",
+      "} while(${1:Condition});"
+    ],
+    "description": "do_whileloop"
+  },
+  "mysql connection string": {
+    "prefix": "conmysql",
+    "body": [
+      "class ${1:${TM_FILENAME_BASE}} {",
+      " \tfunction __construct ($2) {",
+      "\t\t return (new mysqli($3, $4, $5, $6));",
+      "\t}",
+      "}"
+    ],
+    "description": "mysql connection string"
+  },
+  "Function defination": {
+    "prefix": "fu",
+    "body": [
+      "function ${1:functionName} ($2) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Function defination"
+  },
+  "Interface defination": {
+    "prefix": "interfun",
+    "body": [
+      "interface ${1:InterfaceName} {",
+      "\t$public function ${2:iFunctionName} ();",
+      "\t$public function ${3:iiFunctionName} ();",
+      "}"
+    ],
+    "description": "Interface Defination defination"
+  },
+}
