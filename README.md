@@ -10,9 +10,7 @@ git clone https://github.com/rajendrakumaryadav/vscodeconfig_mac.git
 h4 {
     font-size: 16px;
     font-weight: bold;
-}
-p, span {
-    padding-right: 30;
+    color: #ff9999;
 }
 </style>
 <h4> &#9758;&nbsp;&nbsp;&nbsp; Used Extension with the configuration</h4>
