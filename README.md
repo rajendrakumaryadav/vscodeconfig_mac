@@ -18,3 +18,8 @@ git clone https://github.com/rajendrakumaryadav/vscodeconfig_mac.git
 <p>
     <img src="./extension.png" alt="Extension image is missing">
 </p>
+
+<h2 style="color: gray; text-align:center;">  
+:ok_hand: 
+:sparkles: 
+:bulb: Happy Coding... :bulb: Keep Coding... :sparkles:  :sunflower: :sunflower: :rose: :rose:</h2>
