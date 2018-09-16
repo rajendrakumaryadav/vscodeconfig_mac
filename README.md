@@ -16,5 +16,5 @@ git clone https://github.com/rajendrakumaryadav/vscodeconfig_mac.git
 <h4 style="color:#ff9999; font-size:20; font-weigth:bold;"> &#9758;&nbsp;&nbsp;&nbsp; Image Screenshot installed extension in my machine</h4>
 
 <p>
-    <img src="extension.png" alt="Extension image is missing">
+    <img src="./extension.png" alt="Extension image is missing">
 </p>
