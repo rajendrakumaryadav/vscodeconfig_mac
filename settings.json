@@ -71,5 +71,6 @@
         "javascript": "javascriptreact",
         "typescript": "typescriptreact",
         "blade": "html"
-    }
+    },
+    "git.autofetch": true
 }
